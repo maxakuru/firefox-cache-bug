@@ -8,7 +8,7 @@ This repo is a reproducible case in Firefox where a [Link header](https://develo
 
 ### Run it
 ```sh
-yarn start
+yarn && yarn start
 ```
 
 Open Firefox to http://localhost:2337
