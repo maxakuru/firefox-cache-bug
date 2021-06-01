@@ -11,4 +11,7 @@ This repo is a reproducible case in Firefox where a [Link header](https://develo
 yarn && yarn start
 ```
 
+Toggling cache to disabled will show the correct (3) link entries.
+Toggling cache to enabled will show only the last link entry for the second request, and any subsequent request once cached.
+
 Open Firefox to http://localhost:2337

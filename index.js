@@ -6,9 +6,9 @@ const host = process.env.HOST || '127.0.0.1';
 const port = process.env.PORT || 2337;
 const etag = 'some-etag';
 const links = [
-    '<ref>; param1=value1;',
+    '<ref>; param1=value1',
     '<ref2>; param2=value2',
-    '<ref3>; param1=value1;'
+    '<ref3>; param1=value1'
 ];
 
 app.use((req, res, next) => {
